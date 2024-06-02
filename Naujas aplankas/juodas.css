@@ -1,0 +1,116 @@
+.antraste{
+    background-image: url("ziema.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+}
+.Pagrindukas{
+    width: 100%;
+}
+.pagrindas{
+    background-color: rgb(234, 234, 232);
+    max-width: 1500px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap:wrap;
+}
+.autorius{
+    color: rgb(168, 118, 71);
+    font-weight: 1000;
+}
+.poraste{
+    background-image: url("ziema.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: bottom;
+}
+.straipsnis{
+    width: 48%;
+    text-align: justify;
+}
+.straipsniai{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    width: 70%;
+}
+.sonas{
+    position:relative;
+background-color: rgb(225, 202, 196);
+display: flex;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+justify-content: center;
+width: 25%;
+}
+.tamo{
+    position:absolute;
+    left: 80%;
+    top: 19px;
+    border-radius: 10px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration-color: antiquewhite;
+    border-style:solid;
+    top: 10;
+
+}
+.mygtukas{
+    background-color:   beige ;
+    border-radius: 10px;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-style:solid;
+    border-color: beige;
+    color: black;
+    display: inline-block;  
+    text-align: center;
+    margin-left: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition-property: background-color;
+    transition-duration: 1.25s;
+}
+.mygtukas:hover{
+    background-color:transparent;
+    color: black;
+    border-color: black;
+    transition-property: background-color, color;
+    transition-duration: 1s, 3s;
+}
+
+.skydelis{
+    background-color: rgb(243, 239, 238);
+    padding: 20px;
+    border: solid;
+    width: 70%;
+}
+.limpa{
+    position: sticky;
+
+    background-color:   beige ;
+    border-radius: 10px;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-style:solid;
+}
+h2{
+    padding-right: 100px;
+}
+h2:hover{
+    padding-left: 100px;
+    padding-right: 0px;
+    transition-duration: 5s;
+}   
+li{ 
+    padding-right: auto;
+    padding: 10px;
+    border: solid;
+    border-color: cornsilk;
+}

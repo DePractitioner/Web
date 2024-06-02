@@ -1,0 +1,55 @@
+.head{
+    cursor: ('4-48901_file-crosshairs-red-svg-shooting-cursor-png-red.png'), auto;
+}
+.antraste{
+
+    background-image: url("ziema.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center ;
+}
+.pagrindas{
+    background-color: white ;
+    max-width: 1200px;
+    min-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.autorius{
+
+    color: saddlebrown;
+    font-weight: 1000;
+}
+.poraste{
+    color: brown;
+    background-color: blanchedalmond;
+    height: 150px;
+    
+    text-align: center;
+    display: flex;
+    
+}
+.straipsniai{
+
+    padding: 10%;
+    background-color: rgb(221, 205, 186);  padding: 1%;
+        max-width: 5000px;
+    min-height: 1300px;
+    text-align: justify;
+    display: flex;
+}
+.straipsnis{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 20px;
+    min-width: 100px;
+}
+.sonas{
+    display: flex;
+    flex-wrap: wrap;
+      background-color: white ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
